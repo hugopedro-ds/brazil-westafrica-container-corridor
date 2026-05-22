@@ -2,6 +2,8 @@
 
 What Brazil ships to the Atlantic coast of West and Central Africa, who carries it, and why the route structure looks the way it does. Built on Brazilian customs data (ComexStat 2025) and point-to-point verification of the four largest container carriers.
 
+![Brazil to West & Central Atlantic Africa — container-relevant corridor, summary chart](grafico_westafrica_post.png)
+
 ## The short version
 
 In April 2026 DP World announced the "Brazil-Africa Link" — terminal investment at Santos and Luanda, backed by a 10-year agreement with Hapag-Lloyd. That raised a simple question: what does the actual trade and carrier data say about this corridor?
@@ -85,6 +87,6 @@ The script runs in eight blocks — corridor cut, container ranking, cargo compo
 
 ## Author
 
-Hugo Pedro — [LinkedIn](https://www.linkedin.com/in/hugopedro/)
+Hugo Pedro — [LinkedIn](https://www.linkedin.com/in/)
 
 Data: ComexStat / MDIC (Brazil). Carrier schedules: Hapag-Lloyd, Maersk, CMA CGM, MSC.
