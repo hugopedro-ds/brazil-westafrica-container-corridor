@@ -1,8 +1,18 @@
 # Brazil → West & Central Atlantic Africa — a container-trade analysis
 
+![Brazil → West & Central Africa: a USD 1.8bn container corridor](grafico_westafrica_post.png)
+
 What Brazil ships to the Atlantic coast of West and Central Africa, who carries it, and why the route structure looks the way it does. Built on Brazilian customs data (ComexStat 2025) and point-to-point verification of the four largest container carriers.
 
-![Brazil to West & Central Atlantic Africa — container-relevant corridor, summary chart](grafico_westafrica_post.png)
+---
+
+## Companion repository
+
+Part of a broader Brazilian maritime portfolio:
+
+- **[brazilian-maritime-analysis-2025](https://github.com/hugopedro-ds/brazilian-maritime-analysis-2025)** — portfolio hub: port concentration (HHI), landed-cost framework, Brazil-China trade asymmetry, and the foundational ANTAQ deep-sea call analysis.
+
+---
 
 ## The short version
 
@@ -17,6 +27,8 @@ Three things.
 **One direct service in twenty-eight.** Four carriers (MSC, Maersk, CMA CGM, Hapag-Lloyd) checked against seven destinations = 28 point-to-point routes. Exactly one runs direct: Hapag-Lloyd to Luanda. The other 27 transship through a foreign hub — Tanger Med, Algeciras, Las Palmas, Antwerp.
 
 The DP World Brazil-Africa Link builds infrastructure where the container trade is largest and the only direct service already runs. It is not a multi-carrier corridor; it is infrastructure around a single direct operator.
+
+---
 
 ## Method
 
@@ -40,6 +52,8 @@ ComexStat records commodity and value, not transport mode. Since the question is
 
 Everything else is treated as container-relevant. This is an inference, not a measurement — see Limitations.
 
+---
+
 ## Findings
 
 **1. The funnel.** USD 5.0bn total → USD 3.2bn bulk/tanker (64%) → **USD 1.79bn container (36%)**.
@@ -52,6 +66,8 @@ Two anomalies the data exposes: **Nigeria imports effectively zero frozen meat**
 
 **4. The carrier matrix.** Four carriers × seven destinations, each checked point-to-point on the carrier's own booking system (May–July 2026 sailings): 28 routes, **1 direct** (Hapag-Lloyd → Luanda), 27 via transshipment. Even Hapag reaches the two Congo ports by transshipping at Luanda — Luanda works as its regional hub for Central Africa.
 
+---
+
 ## Limitations
 
 This analysis is built on open customs data and public schedules, and it is honest about what that does and does not support.
@@ -61,6 +77,8 @@ This analysis is built on open customs data and public schedules, and it is hone
 - **The carrier matrix covers 7 of the 20 corridor destinations** — the five largest by container value, plus Senegal and Togo.
 - **The Benin figure includes cargo re-exported to Nigeria**; it overstates Benin's own consumption.
 - **The analysis covers exports** (Brazil → corridor); the return leg is not modelled here.
+
+---
 
 ## Reproduce
 
@@ -74,6 +92,8 @@ python comexstat_westafrica_analysis.py
 
 The script runs in eight blocks — corridor cut, container ranking, cargo composition, reefer analysis, carrier matrix, outputs — and prints each result to the console.
 
+---
+
 ## Files
 
 | File | What it is |
@@ -85,8 +105,20 @@ The script runs in eight blocks — corridor cut, container ranking, cargo compo
 | `ranking_contentor.png` | container ranking chart |
 | `grafico_westafrica_post.png` | summary chart |
 
+---
+
 ## Author
 
-Hugo Pedro — [LinkedIn](https://www.linkedin.com/in/)
+**Hugo Pedro** — Senior maritime logistics and supply chain analytics professional. 17+ years in international shipping and multimodal logistics across Angola, Mozambique and Brazil, with extensive carrier negotiations and performance reporting experience.
 
-Data: ComexStat / MDIC (Brazil). Carrier schedules: Hapag-Lloyd, Maersk, CMA CGM, MSC.
+**Full profile and contact:** [linkedin.com/in/hugopedro](https://www.linkedin.com/in/hugopedro/)
+
+This repository is a public case study on Brazil's container trade with West & Central Atlantic Africa. Feedback, challenges, and corrections welcome via issues or pull requests.
+
+**Data sources:** ComexStat / MDIC (Brazil). Carrier schedules: Hapag-Lloyd, Maersk, CMA CGM, MSC.
+
+---
+
+## License
+
+MIT — see [LICENSE](LICENSE).
